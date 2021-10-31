@@ -46,10 +46,11 @@ class _pollState extends State<poll> {
                             width: 100,
                           ),
                         ),
-                        Text(
-                          'EXIT POLL',
-                          style: GoogleFonts.kanit(fontSize: 25, color: Colors.white70),
-                        ),
+                            Center(
+                                child: Text(
+                                'EXIT POLL',
+                                style: GoogleFonts.kanit(fontSize: 25, color: Colors.white70),
+                              ),),
                         Center(
                             child: Text(
                           "เลือกตั้ง อบต",
